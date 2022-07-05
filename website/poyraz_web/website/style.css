@@ -1,0 +1,89 @@
+#Head {
+  background-color: #ffdf00;
+  text-align: center;
+  font-size: 550%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.dis {
+  font-family: Verdana, monospace, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.altmenu {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+section {
+  width: 690px;
+
+  height: 620px;
+
+  background-color: #ffdf00;
+
+  float: left;
+}
+.poyrazrobotaksi {
+  font: bold 34px/35px "Lucida Grande", Arial, Helvetica, sans-serif;
+  color: #333;
+  background: url("picture/about.png") 1px 3px no-repeat;
+  background-position: center left;
+  background-size: contain;
+  padding-left: 40px;
+}
+.amaclarimiz {
+  font: bold 34px/35px "Lucida Grande", Arial, Helvetica, sans-serif;
+  color: #333;
+  background: url("picture/target.png") 1px 3px no-repeat;
+  background-position: center left;
+  background-size: contain;
+  padding-left: 40px;
+}
+.robotaksi {
+  font: bold 34px/35px "Lucida Grande", Arial, Helvetica, sans-serif;
+  color: #333;
+  background: url("picture/robotaksi.png") 1px 1px no-repeat;
+  background-position: center left;
+  background-size: contain;
+  padding-left: 45px;
+}
+.slider {
+  width: 558px;
+
+  height: 620px;
+  background-image: url("picture/logo.jpeg");
+  background-position: center center;
+  background-size: contain;
+  background-color: #ffdf00;
+
+  float: right;
+}
+.img-bir,
+.img-iki,
+.img-uc,
+.img-dort,
+.img-bes {
+  object-fit: fill;
+}
